@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.isangeet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\iSangeet\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\iSangeet\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->E:\iSangeet\app\src\main\AndroidManifest.xml:5:5-79
+11-->E:\iSangeet\app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <application
+13-->E:\iSangeet\app\src\main\AndroidManifest.xml:7:5-30:19
+14        android:allowBackup="true"
+14-->E:\iSangeet\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->E:\iSangeet\app\src\main\AndroidManifest.xml:10:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->E:\iSangeet\app\src\main\AndroidManifest.xml:11:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\iSangeet\app\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->E:\iSangeet\app\src\main\AndroidManifest.xml:13:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->E:\iSangeet\app\src\main\AndroidManifest.xml:8:9-52
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->E:\iSangeet\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->E:\iSangeet\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/Theme.ISangeet" >
+24-->E:\iSangeet\app\src\main\AndroidManifest.xml:16:9-46
+25        <activity
+25-->E:\iSangeet\app\src\main\AndroidManifest.xml:18:9-20:58
+26            android:name="com.example.isangeet.PlaySong"
+26-->E:\iSangeet\app\src\main\AndroidManifest.xml:19:13-37
+27            android:parentActivityName="com.example.isangeet.MainActivity" />
+27-->E:\iSangeet\app\src\main\AndroidManifest.xml:20:13-55
+28        <activity
+28-->E:\iSangeet\app\src\main\AndroidManifest.xml:21:9-29:20
+29            android:name="com.example.isangeet.MainActivity"
+29-->E:\iSangeet\app\src\main\AndroidManifest.xml:22:13-41
+30            android:exported="true" >
+30-->E:\iSangeet\app\src\main\AndroidManifest.xml:23:13-36
+31            <intent-filter>
+31-->E:\iSangeet\app\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->E:\iSangeet\app\src\main\AndroidManifest.xml:25:17-69
+32-->E:\iSangeet\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->E:\iSangeet\app\src\main\AndroidManifest.xml:27:17-77
+34-->E:\iSangeet\app\src\main\AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->[com.karumi:dexter:6.2.3] C:\Users\Dhiraj\.gradle\caches\transforms-3\2ce0e9ffd8ad130cc0a8f35dac9619fa\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+38            android:name="com.karumi.dexter.DexterActivity"
+38-->[com.karumi:dexter:6.2.3] C:\Users\Dhiraj\.gradle\caches\transforms-3\2ce0e9ffd8ad130cc0a8f35dac9619fa\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+39            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+39-->[com.karumi:dexter:6.2.3] C:\Users\Dhiraj\.gradle\caches\transforms-3\2ce0e9ffd8ad130cc0a8f35dac9619fa\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.example.isangeet.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dhiraj\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
